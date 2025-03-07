@@ -1,8 +1,9 @@
-Tabuada Simples em Python
-Este é um script simples em Python que gera a tabuada de um número fornecido pelo usuário.
+# Tabuada Simples em Python
 
-Descrição
-O programa solicita que o usuário digite um número inteiro e, em seguida, exibe a tabuada desse número de 1 a 10, mostrando o resultado de cada multiplicação.
+<div align="center"> <p>Um script simples em Python que gera a tabuada de um número fornecido pelo usuário.</p> </div>
+
+# Descrição
+O programa solicita que o usuário digite um número inteiro e exibe sua tabuada de <strong>1 a 10</strong>, mostrando o resultado de cada multiplicação de forma clara e organizada.
 
 numero = int(input('Digite um numero para ver sua tabuada: '))
 for n in range(1, 11):
