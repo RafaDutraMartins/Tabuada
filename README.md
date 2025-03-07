@@ -5,22 +5,28 @@
 # Descrição
 O programa solicita que o usuário digite um número inteiro e exibe sua tabuada de <strong>1 a 10</strong>, mostrando o resultado de cada multiplicação de forma clara e organizada.
 
-numero = int(input('Digite um numero para ver sua tabuada: '))
-for n in range(1, 11):
-    print('{} x {} = {}'.format(numero, n, numero * n))
+# Codigo 
 
-    Como Funciona
-input(): Solicita que o usuário digite um número. A função input() retorna uma string.
-int(): Converte a entrada do usuário (string) para um número inteiro e armazena na variável numero.
-for n in range(1, 11): Cria um loop que itera de 1 a 10 (o range(1, 11) inclui 1 e exclui 11).
-print(): Exibe a multiplicação no formato "numero x n = resultado", onde:
-numero é o valor digitado pelo usuário.
-n é o contador do loop (de 1 a 10).
-numero * n é o resultado da multiplicação.
-.format(): Formata a string para incluir os valores de numero, n e o resultado da multiplicação.
+<details>
+    <summary><strong>Clique para ver o código</strong></summary>
+  
+  ```python
+  numero = int(input('Digite um numero para ver sua tabuada: '))
+  for n in range(1, 11):
+      print('{} x {} = {}'.format(numero, n, numero * n))
+```
+</details>
+
+## 
+# Como Funciona
+    
+<ol> <li><strong><code>input()</code></strong>: Solicita ao usuário um número (retorna uma string).</li> <li><strong><code>int()</code></strong>: Converte a entrada em um número inteiro e armazena em <code>numero</code>.</li> <li><strong><code>for n in range(1, 11)</code></strong>: Loop que itera de 1 a 10.</li> <li><strong><code>print()</code></strong>: Exibe a multiplicação no formato <em>"numero x n = resultado"</em>.</li> <li><strong><code>.format()</code></strong>: Formata a string com os valores de <code>numero</code>, <code>n</code> e o resultado.</li> </ol>
+
+##
 
 Exemplo de Uso
-Se o usuário digitar 5, a saída será:
+
+Se o usuário digitar <code>5</code>, a saída será:
 
 Digite um numero para ver sua tabuada: 5
 5 x 1 = 5
@@ -34,4 +40,5 @@ Digite um numero para ver sua tabuada: 5
 5 x 9 = 45
 5 x 10 = 50
 
+<div align="center"> <strong>Resultado simples e direto!</strong> </div>
 
