@@ -24,11 +24,11 @@ O programa solicita que o usuário digite um número inteiro e exibe sua tabuada
 
 ##
 
-Exemplo de Uso
+# Exemplo de Uso
 
-Se o usuário digitar <code>5</code>, a saída será:
-
-Digite um numero para ver sua tabuada: 5
+<pre>
+ Se o usuário digitar <code>5</code>, a saída será:
+ Digite um numero para ver sua tabuada: 5
 5 x 1 = 5
 5 x 2 = 10
 5 x 3 = 15
@@ -39,6 +39,10 @@ Digite um numero para ver sua tabuada: 5
 5 x 8 = 40
 5 x 9 = 45
 5 x 10 = 50
+</pre>
 
 <div align="center"> <strong>Resultado simples e direto!</strong> </div>
+
+
+
 
